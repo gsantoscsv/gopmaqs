@@ -1,0 +1,8 @@
+
+2022-07-06 09:48:25.732
+INFORMATION:	Setup test object for Tests.SeleniumTestsVSUnit.GrabValuesFromConfig
+
+2022-07-06 09:48:25.737
+ERROR:	
+Test was forced to fail in the cleanup - Likely the result of a soft assert failure.
+   at CognizantSoftvision.Maqs.BaseTest.BaseTest.Teardown()

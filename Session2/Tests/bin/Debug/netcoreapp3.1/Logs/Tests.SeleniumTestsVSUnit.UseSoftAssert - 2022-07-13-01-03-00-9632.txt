@@ -1,0 +1,27 @@
+
+2022-07-13 13:03:00.965
+INFORMATION:	Setup test object for Tests.SeleniumTestsVSUnit.UseSoftAssert
+
+2022-07-13 13:03:00.972
+WARNING:	SoftAssert 'Always fail' failed 
+Exception: 
+Assert.Fail failed. Early failure
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message)
+   at Tests.SeleniumTestsVSUnit.<>c.<UseSoftAssert>b__6_0() in c:\Training\MAQSTraining\Session2\Tests\SeleniumTestsVSUnit.cs:line 104
+   at CognizantSoftvision.Maqs.BaseTest.SoftAssert.Assert(Action assertFunction, String assertName, String failureMessage)
+
+2022-07-13 13:03:00.973
+SUCCESS:	SoftAssert 'Tautology' passed
+
+2022-07-13 13:03:00.975
+ERROR:	Total number of Asserts: 2. 
+Passed Asserts = 1 
+Failed Asserts = 1
+
+List of failed exceptions:
+Assert.Fail failed. Early failure
+
+2022-07-13 13:03:00.976
+ERROR:	Test failed

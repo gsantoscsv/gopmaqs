@@ -1,0 +1,11 @@
+
+2022-07-08 16:16:43.256
+INFORMATION:	Setup test object for Tests.DatabaseTestVSUnit.ConnectToDatabase
+
+2022-07-08 16:16:43.259
+ERROR:	
+Entity must have at least one [Key] or [ExplicitKey] property
+   at Dapper.Contrib.Extensions.SqlMapperExtensions.Delete[T](IDbConnection connection, T entityToDelete, IDbTransaction transaction, Nullable`1 commandTimeout) in /_/Dapper.Contrib/SqlMapperExtensions.cs:line 509
+   at CognizantSoftvision.Maqs.BaseDatabaseTest.DatabaseDriver.Delete[T](T entityToDelete, IDbTransaction transaction, Nullable`1 commandTimeout, String[] items)
+   at CognizantSoftvision.Maqs.BaseDatabaseTest.EventFiringDatabaseDriver.Delete[T](T entityToDelete, IDbTransaction transaction, Nullable`1 commandTimeout, String[] items)
+   at Tests.DatabaseTestVSUnit.Delete() in c:\Training\MAQSTraining\Seesion4\Tests\DatabaseTestVSUnit.cs:line 57

@@ -1,0 +1,14 @@
+
+2022-07-06 09:48:18.057
+INFORMATION:	Setup test object for Tests.SeleniumTestsVSUnit.AssociateFile
+
+2022-07-06 09:48:18.067
+ERROR:	
+Assert.Fail failed. Make sure the test fails
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message)
+   at Tests.SeleniumTestsVSUnit.AssociateFile() in c:\Training\MAQSDemoCode-main\MAQSDemoCode-main\Session2\Tests\SeleniumTestsVSUnit.cs:line 51
+
+2022-07-06 09:48:18.070
+ERROR:	Test failed

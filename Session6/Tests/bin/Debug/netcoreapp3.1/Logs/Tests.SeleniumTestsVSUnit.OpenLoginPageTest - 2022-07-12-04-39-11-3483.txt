@@ -1,0 +1,131 @@
+
+2022-07-12 16:39:11.363
+INFORMATION:	Setup test object for Tests.SeleniumTestsVSUnit.OpenLoginPageTest
+
+2022-07-12 16:39:16.248
+INFORMATION:	Local driver: OpenQA.Selenium.Chrome.ChromeDriver
+
+2022-07-12 16:39:16.359
+VERBOSE:	Navigating to: https://magenicautomation.azurewebsites.net/Static/Training2/LoginPage.html
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.SeleniumDriverManager.WebDriver_Navigating(Object sender, WebDriverNavigationEventArgs e)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.OnNavigating(WebDriverNavigationEventArgs e)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.EventFiringNavigation.GoToUrl(String url)
+   at PageModel.LoginPageModel.OpenLoginPage() in c:\Training\MAQSTraining\Session6\PageModel\LoginPageModel.cs:line 63
+   at Tests.SeleniumTestsVSUnit.OpenLoginPageTest() in c:\Training\MAQSTraining\Session6\Tests\SeleniumTestsVSUnit.cs:line 44
+
+
+2022-07-12 16:39:18.805
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/Static/Training2/LoginPage.html
+
+2022-07-12 16:39:18.809
+INFORMATION:	Checking to see if the lazy element 'User name input' is displayed
+
+2022-07-12 16:39:18.823
+VERBOSE:	Performing lazy driver find on: By.CssSelector: #UserName
+
+2022-07-12 16:39:18.836
+VERBOSE:	Finding element: By.CssSelector: #UserName
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.SeleniumDriverManager.WebDriver_FindingElement(Object sender, FindElementEventArgs e)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.OnFindingElement(FindElementEventArgs e)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.<>c__DisplayClass39_0.<ElementDoesExist>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.ForElementExist(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetRawExistingElement()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.<get_Displayed>b__38_0()
+   at CognizantSoftvision.Maqs.Utilities.Helper.GenericWait.Wait[T](Func`1 waitFor, TimeSpan retryTime, TimeSpan timeout)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.get_Displayed()
+   at PageModel.LoginPageModel.IsPageLoaded() in c:\Training\MAQSTraining\Session6\PageModel\LoginPageModel.cs:line 122
+   at PageModel.LoginPageModel.AssertPageLoaded() in c:\Training\MAQSTraining\Session6\PageModel\LoginPageModel.cs:line 110
+   at PageModel.LoginPageModel.OpenLoginPage() in c:\Training\MAQSTraining\Session6\PageModel\LoginPageModel.cs:line 64
+   at Tests.SeleniumTestsVSUnit.OpenLoginPageTest() in c:\Training\MAQSTraining\Session6\Tests\SeleniumTestsVSUnit.cs:line 44
+
+
+2022-07-12 16:39:18.916
+INFORMATION:	Found element: By.CssSelector: #UserName
+
+2022-07-12 16:39:19.022
+INFORMATION:	Checking to see if the lazy element 'Password input' is displayed
+
+2022-07-12 16:39:19.023
+VERBOSE:	Performing lazy driver find on: By.CssSelector: #Password
+
+2022-07-12 16:39:19.028
+VERBOSE:	Finding element: By.CssSelector: #Password
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.SeleniumDriverManager.WebDriver_FindingElement(Object sender, FindElementEventArgs e)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.OnFindingElement(FindElementEventArgs e)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.<>c__DisplayClass39_0.<ElementDoesExist>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.ForElementExist(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetRawExistingElement()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.<get_Displayed>b__38_0()
+   at CognizantSoftvision.Maqs.Utilities.Helper.GenericWait.Wait[T](Func`1 waitFor, TimeSpan retryTime, TimeSpan timeout)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.get_Displayed()
+   at PageModel.LoginPageModel.IsPageLoaded() in c:\Training\MAQSTraining\Session6\PageModel\LoginPageModel.cs:line 122
+   at PageModel.LoginPageModel.AssertPageLoaded() in c:\Training\MAQSTraining\Session6\PageModel\LoginPageModel.cs:line 110
+   at PageModel.LoginPageModel.OpenLoginPage() in c:\Training\MAQSTraining\Session6\PageModel\LoginPageModel.cs:line 64
+   at Tests.SeleniumTestsVSUnit.OpenLoginPageTest() in c:\Training\MAQSTraining\Session6\Tests\SeleniumTestsVSUnit.cs:line 44
+
+
+2022-07-12 16:39:19.085
+INFORMATION:	Found element: By.CssSelector: #Password
+
+2022-07-12 16:39:19.140
+INFORMATION:	Checking to see if the lazy element 'Login button' is displayed
+
+2022-07-12 16:39:19.142
+VERBOSE:	Performing lazy driver find on: By.CssSelector: #Login
+
+2022-07-12 16:39:19.144
+VERBOSE:	Finding element: By.CssSelector: #Login
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.SeleniumDriverManager.WebDriver_FindingElement(Object sender, FindElementEventArgs e)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.OnFindingElement(FindElementEventArgs e)
+   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.FindElement(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.<>c__DisplayClass39_0.<ElementDoesExist>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.Wait.ForElementExist(By by)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetRawExistingElement()
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.GetElement(Func`1 getElement)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.<get_Displayed>b__38_0()
+   at CognizantSoftvision.Maqs.Utilities.Helper.GenericWait.Wait[T](Func`1 waitFor, TimeSpan retryTime, TimeSpan timeout)
+   at CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions.AbstractLazyIWebElement.get_Displayed()
+   at PageModel.LoginPageModel.IsPageLoaded() in c:\Training\MAQSTraining\Session6\PageModel\LoginPageModel.cs:line 122
+   at PageModel.LoginPageModel.AssertPageLoaded() in c:\Training\MAQSTraining\Session6\PageModel\LoginPageModel.cs:line 110
+   at PageModel.LoginPageModel.OpenLoginPage() in c:\Training\MAQSTraining\Session6\PageModel\LoginPageModel.cs:line 64
+   at Tests.SeleniumTestsVSUnit.OpenLoginPageTest() in c:\Training\MAQSTraining\Session6\Tests\SeleniumTestsVSUnit.cs:line 44
+
+
+2022-07-12 16:39:19.182
+INFORMATION:	Found element: By.CssSelector: #Login
+
+2022-07-12 16:39:19.212
+SUCCESS:	Test passed
+
+2022-07-12 16:39:19.228
+VERBOSE:	Test outcome
+   at CognizantSoftvision.Maqs.BaseTest.BaseTest.MaqsTeardown()
+
+
+2022-07-12 16:39:19.233
+VERBOSE:	Start dispose
+
+2022-07-12 16:39:19.235
+VERBOSE:	Start dispose driver
+
+2022-07-12 16:39:21.370
+VERBOSE:	End dispose driver
+
+2022-07-12 16:39:21.376
+VERBOSE:	End dispose
+
+2022-07-12 16:39:21.382
+VERBOSE:	Disposing logger
+
+2022-07-12 16:39:21.384
+VERBOSE:	Disposing logger

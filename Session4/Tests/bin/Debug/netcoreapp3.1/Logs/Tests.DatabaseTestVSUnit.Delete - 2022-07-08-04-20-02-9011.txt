@@ -1,0 +1,27 @@
+
+2022-07-08 16:20:02.901
+INFORMATION:	Setup test object for Tests.DatabaseTestVSUnit.Delete
+
+2022-07-08 16:20:02.905
+INFORMATION:	Getting event firing database driver
+
+2022-07-08 16:20:02.906
+ACTION:	Perform execute with:
+Delete from orders where id >=11 
+
+2022-07-08 16:20:02.914
+ERROR:	
+Assert.AreEqual failed. Expected:<9>. Actual:<1>. Expected record to be deleted.
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message)
+   at Tests.DatabaseTestVSUnit.Delete() in c:\Training\MAQSTraining\Seesion4\Tests\DatabaseTestVSUnit.cs:line 57
+
+2022-07-08 16:20:02.915
+ERROR:	Test failed
+
+2022-07-08 16:20:02.916
+ACTION:	Release connection
+
+2022-07-08 16:20:02.916
+INFORMATION:	Released connection

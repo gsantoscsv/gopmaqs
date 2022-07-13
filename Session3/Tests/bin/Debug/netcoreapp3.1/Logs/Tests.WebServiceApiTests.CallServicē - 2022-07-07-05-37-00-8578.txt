@@ -1,0 +1,26 @@
+
+2022-07-07 17:37:00.862
+INFORMATION:	Setup test object for Tests.WebServiceApiTests.CallServicē
+
+2022-07-07 17:37:00.884
+INFORMATION:	Getting event firing web service driver
+
+2022-07-07 17:37:00.887
+ACTION:	Sending GET request to https://magenictripinfoapi.azurewebsites.net/ at endpoint /authTripsAPI/1/trips
+Content:
+  **Content is null**
+
+2022-07-07 17:37:02.190
+ERROR:	
+Response did not indicate a success.
+Response code was: 401 (Unauthorized)
+Status Code: 401; Unauthorized                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver.EnsureSuccessStatusCode(HttpResponseMessage response)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver.SendWithResponse(HttpRequestMessage httpRequestMessage, String expectedMediaType, Boolean expectSuccess)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.EventFiringWebServiceDriver.SendWithResponse(HttpRequestMessage httpRequestMessage, String expectedMediaType, Boolean expectSuccess)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver.Send(HttpRequestMessage httpRequestMessage, String expectedMediaType, Boolean expectSuccess)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver.Get(String requestUri, String expectedMediaType, Boolean expectSuccess)
+   at Tests.BaseTripTests.CallServicē() in c:\Training\MAQSDemoCode-main\MAQSDemoCode-main\Session3\Tests\BaseTripTests.cs:line 51
+
+2022-07-07 17:37:02.191
+ERROR:	Test failed

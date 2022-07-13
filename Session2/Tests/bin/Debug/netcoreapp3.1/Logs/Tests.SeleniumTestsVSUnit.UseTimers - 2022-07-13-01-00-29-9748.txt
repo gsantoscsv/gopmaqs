@@ -1,0 +1,69 @@
+
+2022-07-13 13:00:29.975
+INFORMATION:	Setup test object for Tests.SeleniumTestsVSUnit.UseTimers
+
+2022-07-13 13:00:29.980
+INFORMATION:	Starting response timer: Total timer
+
+2022-07-13 13:00:31.785
+INFORMATION:	Local driver: OpenQA.Selenium.Chrome.ChromeDriver
+
+2022-07-13 13:00:32.658
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/Static/Training3/loginpage.html
+
+2022-07-13 13:00:32.659
+INFORMATION:	Checking to see if the lazy element 'User name input' is displayed
+
+2022-07-13 13:00:32.673
+INFORMATION:	Found element: By.CssSelector: #name
+
+2022-07-13 13:00:32.694
+INFORMATION:	Checking to see if the lazy element 'Password input' is displayed
+
+2022-07-13 13:00:32.706
+INFORMATION:	Found element: By.CssSelector: #pw
+
+2022-07-13 13:00:32.717
+INFORMATION:	Checking to see if the lazy element 'Login button' is displayed
+
+2022-07-13 13:00:32.725
+INFORMATION:	Found element: By.CssSelector: #Login
+
+2022-07-13 13:00:32.734
+ACTION:	Send keys 'Ted' to 'User name input'
+
+2022-07-13 13:00:32.784
+INFORMATION:	Element value changed: Ted
+
+2022-07-13 13:00:32.785
+ACTION:	Send keys '123' to 'Password input'
+
+2022-07-13 13:00:32.852
+INFORMATION:	Element value changed: 123
+
+2022-07-13 13:00:32.853
+INFORMATION:	Starting response timer: Login timer
+
+2022-07-13 13:00:32.853
+ACTION:	Click 'Login button'
+
+2022-07-13 13:00:32.875
+INFORMATION:	Element clicking: Element (id = e7d34721-59a8-4bea-a13f-c1a5693979c8) Text:Login Location: X:8 Y:292
+
+2022-07-13 13:00:33.325
+INFORMATION:	Checking to see if the lazy element 'Welcome message' is displayed
+
+2022-07-13 13:00:33.335
+INFORMATION:	Found element: By.CssSelector: #WelcomeMessage
+
+2022-07-13 13:00:33.347
+INFORMATION:	Stopping response time test: Login timer
+
+2022-07-13 13:00:33.349
+INFORMATION:	Stopping response time test: Total timer
+
+2022-07-13 13:00:33.350
+SUCCESS:	Test passed
+
+2022-07-13 13:00:33.352
+INFORMATION:	filename: c:\Training\MAQSTraining\Session2\Tests\bin\Debug\netcoreapp3.1\Logs\PerformanceTimerResults-Tests.SeleniumTestsVSUnit.UseTimers-2022-07-13T13-00-33.3521346Z.xml

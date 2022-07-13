@@ -1,0 +1,38 @@
+
+2022-07-08 16:16:43.241
+INFORMATION:	Setup test object for Tests.DatabaseTestVSUnit.Delete
+
+2022-07-08 16:16:43.245
+INFORMATION:	Getting event firing database driver
+
+2022-07-08 16:16:43.245
+ACTION:	Perform query with:
+Select * from orders where id >= 11
+
+2022-07-08 16:16:43.246
+ACTION:	Perform delete with:
+
+
+2022-07-08 16:16:43.254
+ERROR:	Failed because: Entity must have at least one [Key] or [ExplicitKey] property
+System.ArgumentException: Entity must have at least one [Key] or [ExplicitKey] property
+   at Dapper.Contrib.Extensions.SqlMapperExtensions.Delete[T](IDbConnection connection, T entityToDelete, IDbTransaction transaction, Nullable`1 commandTimeout) in /_/Dapper.Contrib/SqlMapperExtensions.cs:line 509
+   at CognizantSoftvision.Maqs.BaseDatabaseTest.DatabaseDriver.Delete[T](T entityToDelete, IDbTransaction transaction, Nullable`1 commandTimeout, String[] items)
+   at CognizantSoftvision.Maqs.BaseDatabaseTest.EventFiringDatabaseDriver.Delete[T](T entityToDelete, IDbTransaction transaction, Nullable`1 commandTimeout, String[] items)
+
+2022-07-08 16:16:43.270
+ERROR:	
+Entity must have at least one [Key] or [ExplicitKey] property
+   at Dapper.Contrib.Extensions.SqlMapperExtensions.Delete[T](IDbConnection connection, T entityToDelete, IDbTransaction transaction, Nullable`1 commandTimeout) in /_/Dapper.Contrib/SqlMapperExtensions.cs:line 509
+   at CognizantSoftvision.Maqs.BaseDatabaseTest.DatabaseDriver.Delete[T](T entityToDelete, IDbTransaction transaction, Nullable`1 commandTimeout, String[] items)
+   at CognizantSoftvision.Maqs.BaseDatabaseTest.EventFiringDatabaseDriver.Delete[T](T entityToDelete, IDbTransaction transaction, Nullable`1 commandTimeout, String[] items)
+   at Tests.DatabaseTestVSUnit.Delete() in c:\Training\MAQSTraining\Seesion4\Tests\DatabaseTestVSUnit.cs:line 57
+
+2022-07-08 16:16:43.272
+ERROR:	Test failed
+
+2022-07-08 16:16:43.273
+ACTION:	Release connection
+
+2022-07-08 16:16:43.274
+INFORMATION:	Released connection

@@ -1,0 +1,27 @@
+
+2022-07-08 16:12:51.291
+INFORMATION:	Setup test object for Tests.DatabaseTestVSUnit.InsertProduct
+
+2022-07-08 16:12:51.296
+INFORMATION:	Getting event firing database driver
+
+2022-07-08 16:12:51.298
+ACTION:	Perform insert with:
+
+
+2022-07-08 16:12:51.344
+ERROR:	
+Assert.AreEqual failed. Expected:<11>. Actual:<14>. Expected new record to be 11.
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual[T](T expected, T actual, String message)
+   at Tests.DatabaseTestVSUnit.InsertProduct() in c:\Training\MAQSTraining\Seesion4\Tests\DatabaseTestVSUnit.cs:line 49
+
+2022-07-08 16:12:51.347
+ERROR:	Test failed
+
+2022-07-08 16:12:51.348
+ACTION:	Release connection
+
+2022-07-08 16:12:51.349
+INFORMATION:	Released connection

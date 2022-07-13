@@ -1,0 +1,42 @@
+
+2022-07-08 16:10:34.391
+INFORMATION:	Setup test object for Tests.DatabaseTestVSUnit.ExecuteDelete
+
+2022-07-08 16:10:34.396
+INFORMATION:	Getting event firing database driver
+
+2022-07-08 16:10:34.397
+ACTION:	Perform execute with:
+setStateAbrv
+
+2022-07-08 16:10:34.423
+ERROR:	Failed because: The CommandType 'StoredProcedure' is not supported.
+System.ArgumentException: The CommandType 'StoredProcedure' is not supported.
+   at Microsoft.Data.Sqlite.SqliteCommand.set_CommandType(CommandType value)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader) in /_/Dapper/CommandDefinition.cs:line 128
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2846
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 581
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 452
+   at CognizantSoftvision.Maqs.BaseDatabaseTest.DatabaseDriver.Execute(String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CognizantSoftvision.Maqs.BaseDatabaseTest.EventFiringDatabaseDriver.Execute(String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+
+2022-07-08 16:10:34.439
+ERROR:	
+The CommandType 'StoredProcedure' is not supported.
+   at Microsoft.Data.Sqlite.SqliteCommand.set_CommandType(CommandType value)
+   at Dapper.CommandDefinition.SetupCommand(IDbConnection cnn, Action`2 paramReader) in /_/Dapper/CommandDefinition.cs:line 128
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2846
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 581
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 452
+   at CognizantSoftvision.Maqs.BaseDatabaseTest.DatabaseDriver.Execute(String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CognizantSoftvision.Maqs.BaseDatabaseTest.EventFiringDatabaseDriver.Execute(String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Tests.DatabaseTestVSUnit.ExecuteDelete() in c:\Training\MAQSTraining\Seesion4\Tests\DatabaseTestVSUnit.cs:line 47
+
+2022-07-08 16:10:34.443
+ERROR:	Test failed
+
+2022-07-08 16:10:34.444
+ACTION:	Release connection
+
+2022-07-08 16:10:34.445
+INFORMATION:	Released connection

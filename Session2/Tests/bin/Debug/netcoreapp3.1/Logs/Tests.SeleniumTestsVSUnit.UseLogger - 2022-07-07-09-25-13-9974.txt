@@ -1,0 +1,8 @@
+
+2022-07-07 09:25:13.999
+INFORMATION:	Setup test object for Tests.SeleniumTestsVSUnit.UseLogger
+
+2022-07-07 09:25:14.003
+ERROR:	
+Test was forced to fail in the cleanup - Likely the result of a soft assert failure.
+   at CognizantSoftvision.Maqs.BaseTest.BaseTest.Teardown()

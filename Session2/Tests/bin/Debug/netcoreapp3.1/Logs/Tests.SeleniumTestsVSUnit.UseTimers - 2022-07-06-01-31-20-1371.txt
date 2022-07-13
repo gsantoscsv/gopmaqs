@@ -1,0 +1,3 @@
+
+2022-07-06 13:31:24.699
+INFORMATION:	filename: c:\Training\MAQSDemoCode-main\MAQSDemoCode-main\Session2\Tests\bin\Debug\netcoreapp3.1\Logs\PerformanceTimerResults-Tests.SeleniumTestsVSUnit.UseTimers-2022-07-06T13-31-24.6990551Z.xml

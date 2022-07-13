@@ -1,0 +1,15 @@
+
+2022-07-07 17:37:02.159
+INFORMATION:	Setup test object for Tests.WebServiceApiTests.GetTripWithResponse
+
+2022-07-07 17:37:02.165
+ERROR:	
+Response did not indicate a success.
+Response code was: 401 (Unauthorized)
+Status Code: 401; Unauthorized                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver.EnsureSuccessStatusCode(HttpResponseMessage response)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver.SendWithResponse(HttpRequestMessage httpRequestMessage, String expectedMediaType, Boolean expectSuccess)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.EventFiringWebServiceDriver.SendWithResponse(HttpRequestMessage httpRequestMessage, String expectedMediaType, Boolean expectSuccess)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver.Send(HttpRequestMessage httpRequestMessage, String expectedMediaType, Boolean expectSuccess)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver.Get(String requestUri, String expectedMediaType, Boolean expectSuccess)
+   at Tests.BaseTripTests.CallServicē() in c:\Training\MAQSDemoCode-main\MAQSDemoCode-main\Session3\Tests\BaseTripTests.cs:line 51

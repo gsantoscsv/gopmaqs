@@ -1,0 +1,54 @@
+
+2022-07-13 13:02:53.096
+INFORMATION:	Setup test object for Tests.SeleniumTestsVSUnit.UseValueAndObjectCollections
+
+2022-07-13 13:02:54.894
+INFORMATION:	Local driver: OpenQA.Selenium.Chrome.ChromeDriver
+
+2022-07-13 13:02:55.789
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/Static/Training3/loginpage.html
+
+2022-07-13 13:02:55.790
+INFORMATION:	Checking to see if the lazy element 'User name input' is displayed
+
+2022-07-13 13:02:55.802
+INFORMATION:	Found element: By.CssSelector: #name
+
+2022-07-13 13:02:55.833
+INFORMATION:	Checking to see if the lazy element 'Password input' is displayed
+
+2022-07-13 13:02:55.842
+INFORMATION:	Found element: By.CssSelector: #pw
+
+2022-07-13 13:02:55.853
+INFORMATION:	Checking to see if the lazy element 'Login button' is displayed
+
+2022-07-13 13:02:55.861
+INFORMATION:	Found element: By.CssSelector: #Login
+
+2022-07-13 13:02:55.869
+ACTION:	Send keys 'Ted' to 'User name input'
+
+2022-07-13 13:02:55.918
+INFORMATION:	Element value changed: Ted
+
+2022-07-13 13:02:55.919
+ACTION:	Send keys '123' to 'Password input'
+
+2022-07-13 13:02:55.973
+INFORMATION:	Element value changed: 123
+
+2022-07-13 13:02:55.973
+ACTION:	Click 'Login button'
+
+2022-07-13 13:02:55.993
+INFORMATION:	Element clicking: Element (id = 58a24105-0121-4e6e-9c24-254a20b129ed) Text:Login Location: X:8 Y:292
+
+2022-07-13 13:02:56.463
+INFORMATION:	Checking to see if the lazy element 'Welcome message' is displayed
+
+2022-07-13 13:02:56.474
+INFORMATION:	Found element: By.CssSelector: #WelcomeMessage
+
+2022-07-13 13:02:56.489
+SUCCESS:	Test passed

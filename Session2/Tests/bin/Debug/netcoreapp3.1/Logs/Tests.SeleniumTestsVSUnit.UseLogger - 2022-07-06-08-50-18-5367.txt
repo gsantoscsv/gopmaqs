@@ -1,0 +1,59 @@
+
+2022-07-06 08:50:18.538
+INFORMATION:	Setup test object for Tests.SeleniumTestsVSUnit.UseLogger
+
+2022-07-06 08:50:20.280
+INFORMATION:	Local driver: OpenQA.Selenium.Chrome.ChromeDriver
+
+2022-07-06 08:50:21.153
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/Static/Training3/loginpage.html
+
+2022-07-06 08:50:21.155
+INFORMATION:	Checking to see if the lazy element 'User name input' is displayed
+
+2022-07-06 08:50:21.171
+INFORMATION:	Found element: By.CssSelector: #name
+
+2022-07-06 08:50:21.188
+INFORMATION:	Checking to see if the lazy element 'Password input' is displayed
+
+2022-07-06 08:50:21.199
+INFORMATION:	Found element: By.CssSelector: #pw
+
+2022-07-06 08:50:21.210
+INFORMATION:	Checking to see if the lazy element 'Login button' is displayed
+
+2022-07-06 08:50:21.218
+INFORMATION:	Found element: By.CssSelector: #Login
+
+2022-07-06 08:50:21.322
+ACTION:	Click 'Login button'
+
+2022-07-06 08:50:21.343
+INFORMATION:	Element clicking: Element (id = af4ed6ce-22db-4fe2-b8aa-43140ae422d3) Text:Login Location: X:8 Y:292
+
+2022-07-06 08:50:21.819
+INFORMATION:	Checking to see if the lazy element 'Welcome message' is displayed
+
+2022-07-06 08:50:21.828
+INFORMATION:	Found element: By.CssSelector: #WelcomeMessage
+
+2022-07-06 08:50:21.841
+INFORMATION:	INFORMATION - Will see in log file.
+
+2022-07-06 08:50:21.841
+GENERIC:	GENERIC - Will see in log file.
+
+2022-07-06 08:50:21.843
+ERROR:	
+Assert.Fail failed. Fail so we see the results in the log file.
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail(String message)
+   at Tests.SeleniumTestsVSUnit.UseLogger() in c:\Training\MAQSDemoCode-main\MAQSDemoCode-main\Session2\Tests\SeleniumTestsVSUnit.cs:line 95
+
+2022-07-06 08:50:21.844
+ERROR:	Test failed
+
+2022-07-06 08:50:21.983
+INFORMATION:	Screenshot saved: c:\Training\MAQSDemoCode-main\MAQSDemoCode-main\Session2\Tests\bin\Debug\netcoreapp3.1\Logs\Tests.SeleniumTestsVSUnit.UseLogger - 2022-07-06-08-50-18-5367 Final.Png

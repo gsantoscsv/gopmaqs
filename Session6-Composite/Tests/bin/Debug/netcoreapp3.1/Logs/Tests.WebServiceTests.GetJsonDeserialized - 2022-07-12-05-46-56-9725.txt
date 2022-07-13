@@ -1,0 +1,19 @@
+
+2022-07-12 17:46:56.973
+INFORMATION:	Setup test object for Tests.WebServiceTests.GetJsonDeserialized
+
+2022-07-12 17:46:56.977
+ERROR:	
+Response did not indicate a success.
+Response code was: 405 (MethodNotAllowed)
+<html>
+<head><title>405 Not Allowed</title></head>
+<body bgcolor="white">
+<center><h1>405 Not Allowed</h1></center>
+</body>
+</html>
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver.EnsureSuccessStatusCode(HttpResponseMessage response)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver.SendWithResponse(HttpRequestMessage httpRequestMessage, String expectedMediaType, Boolean expectSuccess)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver.Send(HttpRequestMessage httpRequestMessage, String expectedMediaType, Boolean expectSuccess)
+   at CognizantSoftvision.Maqs.BaseWebServiceTest.WebServiceDriver.Delete(String requestUri, String expectedMediaType, Boolean expectSuccess)
+   at Tests.WebServiceTests.TestCleanup() in c:\Training\MAQSTraining\Session6-Composite\Tests\WebServiceTests.cs:line 24

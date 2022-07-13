@@ -1,0 +1,8 @@
+
+2022-07-06 13:11:46.220
+INFORMATION:	Setup test object for Tests.SeleniumTestsVSUnit.AssociateFile
+
+2022-07-06 13:11:46.225
+ERROR:	
+Test was forced to fail in the cleanup - Likely the result of a soft assert failure.
+   at CognizantSoftvision.Maqs.BaseTest.BaseTest.Teardown()

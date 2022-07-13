@@ -1,0 +1,44 @@
+
+2022-07-13 14:26:22.275
+INFORMATION:	Setup test object for Tests.DatabaseTestVSUnit.InsertProduct
+
+2022-07-13 14:26:22.281
+INFORMATION:	Getting event firing database driver
+
+2022-07-13 14:26:22.283
+ACTION:	Perform insert with:
+
+
+2022-07-13 14:26:22.327
+ERROR:	Failed because: SQLite Error 14: 'unable to open database file'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteConnectionInternal..ctor(SqliteConnectionStringBuilder connectionOptions, SqliteConnectionPool pool)
+   at Microsoft.Data.Sqlite.SqliteConnectionPool.GetConnection()
+   at Microsoft.Data.Sqlite.SqliteConnectionFactory.GetConnection(SqliteConnection outerConnection)
+   at Microsoft.Data.Sqlite.SqliteConnection.Open()
+   at Dapper.Contrib.Extensions.SqlMapperExtensions.Insert[T](IDbConnection connection, T entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout) in /_/Dapper.Contrib/SqlMapperExtensions.cs:line 375
+   at CognizantSoftvision.Maqs.BaseDatabaseTest.DatabaseDriver.Insert[T](T entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout, String[] items)
+   at CognizantSoftvision.Maqs.BaseDatabaseTest.EventFiringDatabaseDriver.Insert[T](T entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout, String[] items)
+
+2022-07-13 14:26:22.335
+ERROR:	
+SQLite Error 14: 'unable to open database file'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteConnectionInternal..ctor(SqliteConnectionStringBuilder connectionOptions, SqliteConnectionPool pool)
+   at Microsoft.Data.Sqlite.SqliteConnectionPool.GetConnection()
+   at Microsoft.Data.Sqlite.SqliteConnectionFactory.GetConnection(SqliteConnection outerConnection)
+   at Microsoft.Data.Sqlite.SqliteConnection.Open()
+   at Dapper.Contrib.Extensions.SqlMapperExtensions.Insert[T](IDbConnection connection, T entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout) in /_/Dapper.Contrib/SqlMapperExtensions.cs:line 375
+   at CognizantSoftvision.Maqs.BaseDatabaseTest.DatabaseDriver.Insert[T](T entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout, String[] items)
+   at CognizantSoftvision.Maqs.BaseDatabaseTest.EventFiringDatabaseDriver.Insert[T](T entityToInsert, IDbTransaction transaction, Nullable`1 commandTimeout, String[] items)
+   at Tests.DatabaseTestVSUnit.InsertProduct() in c:\Training\MAQSTraining\Session4\Tests\DatabaseTestVSUnit.cs:line 48
+
+2022-07-13 14:26:22.336
+ERROR:	Test failed
+
+2022-07-13 14:26:22.337
+ACTION:	Release connection
+
+2022-07-13 14:26:22.338
+INFORMATION:	Released connection

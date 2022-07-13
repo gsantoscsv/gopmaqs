@@ -1,0 +1,36 @@
+
+2022-07-11 13:43:07.152
+INFORMATION:	Setup test object for Tests.SeleniumTestsNUnit.ClickAboutButtonTestNUnit
+
+2022-07-11 13:43:08.890
+INFORMATION:	Local driver: OpenQA.Selenium.Chrome.ChromeDriver
+
+2022-07-11 13:43:10.029
+INFORMATION:	Navigated to: https://magenicautomation.azurewebsites.net/Static/Training1/HomePage.html
+
+2022-07-11 13:43:10.030
+INFORMATION:	Checking to see if the lazy element 'Welcome message' is displayed
+
+2022-07-11 13:43:10.042
+INFORMATION:	Found element: By.CssSelector: #WelcomeMessage
+
+2022-07-11 13:43:10.057
+ACTION:	Click 'About button'
+
+2022-07-11 13:43:10.067
+INFORMATION:	Found element: By.CssSelector: #About
+
+2022-07-11 13:43:10.101
+INFORMATION:	Element clicking: Element (id = da6b884c-1caf-43d0-ac3f-e9932c2e72e7) Text: Location: X:770 Y:155
+
+2022-07-11 13:43:10.601
+ERROR:	
+The method or operation is not implemented.
+   at PageModel.AboutPageModel.IsPageLoaded() in c:\Training\MAQSTraining\Session5\PageModel\AboutPageModel.cs:line 55
+   at Tests.SeleniumTestsNUnit.ClickAboutButtonTestNUnit() in c:\Training\MAQSTraining\Session5\Tests\SeleniumTestsNUnit.cs:line 71
+
+2022-07-11 13:43:10.606
+ERROR:	Test failed
+
+2022-07-11 13:43:10.752
+INFORMATION:	Screenshot saved: c:\Training\MAQSTraining\Session5\Tests\bin\Debug\netcoreapp3.1\Logs\Tests.SeleniumTestsNUnit.ClickAboutButtonTestNUnit - 2022-07-11-01-43-07-1513 Final.Png

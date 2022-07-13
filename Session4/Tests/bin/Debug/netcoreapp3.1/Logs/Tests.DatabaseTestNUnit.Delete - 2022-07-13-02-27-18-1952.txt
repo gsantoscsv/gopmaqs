@@ -1,0 +1,31 @@
+
+2022-07-13 14:27:18.196
+INFORMATION:	Setup test object for Tests.DatabaseTestNUnit.Delete
+
+2022-07-13 14:27:18.200
+INFORMATION:	Getting event firing database driver
+
+2022-07-13 14:27:18.200
+ACTION:	Perform execute with:
+Delete from orders where id =11 
+
+2022-07-13 14:27:18.221
+ERROR:	
+  Expected record to be deleted.
+  Expected: 1
+  But was:  0
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at Tests.DatabaseTestNUnit.Delete() in c:\Training\MAQSTraining\Session4\Tests\DatabaseTestNUnit.cs:line 72
+
+2022-07-13 14:27:18.224
+ERROR:	Test failed
+
+2022-07-13 14:27:18.225
+ACTION:	Release connection
+
+2022-07-13 14:27:18.225
+INFORMATION:	Released connection
